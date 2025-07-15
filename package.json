@@ -7,11 +7,13 @@
     "build": "vite build",
     "preview": "vite preview"
   },
- "@vitejs/plugin-react": "^4.0.0"
+  "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
+fix: move dependencies to correct section
